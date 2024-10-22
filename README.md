@@ -18,7 +18,9 @@ Unzip the folder to any directory on your system. The pipeline will run in the u
 > 
 > ``cd run_classifier``
 
-Step 2: Provide study name and link to input data  
+Step 2: Edit ``run_pipeline.sh``  
+First, edit the slurm details accordingly. Then, provide study name and link to input data.  
+
 The input data should be in Plink binary format (.bed, .bim, .fam). Provide name of study and the link to your input files (edit Line 21 and 22 of run_population_classifier.sh).  
 
 Step 3: Run the pipeline  
