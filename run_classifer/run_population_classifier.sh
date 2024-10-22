@@ -33,4 +33,4 @@ bash prepare_pcs.sh $NAME $INPUT
 echo "Running classify.R..."
 Rscript classify.R $NAME
 
-
+echo "✿❀❁❃❋❀✿ Kiwedde! - means complete but, check if everything went as expected. ✿❀❁❃❋❀✿"
