@@ -13,16 +13,15 @@ Performing PCA-based population inference, utilising PLINK for variant extractio
 
 ## How to Run
 Step 1: Unzip the folder
-Unzip the folder to any directory on your system. The pipeline will run in the unzipped directory, so no additional configuration is required.
-``unzip run_classifier.zip``
-``cd run_classifier``
+Unzip the folder to any directory on your system. The pipeline will run in the unzipped directory, so no additional configuration is required.  
+> ``unzip run_classifier.zip``  
+> ``cd run_classifier``
 
 Step 2: Provide study name and link to input data
 The input data should be in Plink binary format (.bed, .bim, .fam). Provide name of study and the link to your input files (edit Line 21 and 22 of run_population_classifier.sh).
 
 Step 3: Run the pipeline
-Submit the pipeline using the run_pipeline.sh script. (Ensure you have the necessary permissions to run the script: ``chmod +x run_pipeline.sh`` )
-
+Submit the pipeline using the run_pipeline.sh script. (Ensure you have the necessary permissions to run the script: ``chmod +x run_pipeline.sh`` )  
 ``sbatch run_pipeline.sh``
 
 This will run the entire pipeline, starting with preparing PCs from your data and then classifying populations using the pre-trained model.
