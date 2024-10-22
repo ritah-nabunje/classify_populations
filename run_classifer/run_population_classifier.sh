@@ -5,7 +5,7 @@
 #SBATCH --mem=100G
 #SBATCH --account=gen1
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --mail-user=xxzz@le.ac.uk
+#SBATCH --mail-user=xyz123@example.ac.uk
 #SBATCH --error=xxxx.err
 #SBATCH --output=xxxx.out
 
