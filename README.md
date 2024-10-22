@@ -14,7 +14,7 @@ Performing PCA-based population inference, utilising PLINK for variant extractio
 ## How to Run
 Step 1: Unzip the folder
 Unzip the folder to any directory on your system. The pipeline will run in the unzipped directory, so no additional configuration is required.  
-> ``unzip run_classifier.zip``  
+``unzip run_classifier.zip`` 
 > ``cd run_classifier``
 
 Step 2: Provide study name and link to input data
