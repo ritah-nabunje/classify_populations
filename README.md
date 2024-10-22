@@ -27,8 +27,8 @@ Step 3: Run the pipeline
 Submit the pipeline using the run_pipeline.sh script. (Ensure you have the necessary permissions to run the script: ``chmod +x run_pipeline.sh`` )  
 > ``sbatch run_pipeline.sh``
 or
-> ``bash run_pipeline.sh`` if not submitting to a slurm scheduler
-or edit to use your job scheduler
+> ``bash run_pipeline.sh`` if not submitting to a scheduler
+or edit to suit your system's job scheduler
  
 This will run the entire pipeline, starting with preparing PCs from your data and then classifying populations using the pre-trained model.
 
